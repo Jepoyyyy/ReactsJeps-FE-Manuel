@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useToken } from '@/hooks/useToken';
 import { getMyProfile } from '@/service/auth/profileApi';
-import { X, Mail, Phone, Calendar, MapPin, Loader2, User } from 'lucide-react';
+import { X,Loader2 } from 'lucide-react';
 
 interface ProfileData {
   firstName: string;
