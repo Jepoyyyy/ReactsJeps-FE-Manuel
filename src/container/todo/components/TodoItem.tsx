@@ -35,7 +35,7 @@ const TodoItem = ({ todo, onToggle, onRemove }: TodoItemProps) => {
       {/* Delete */}
       <button
         onClick={() => onRemove(todo.id)}
-        className="p-1.5 rounded text-neutral-400 text-red-500 opacity-0 group-hover:opacity-100 transition-all"
+        className="p-1.5 rounded text-red-500 group-hover:text-red-600 transition-all"
       >
         <Trash2 className="w-4 h-4" />
       </button>
