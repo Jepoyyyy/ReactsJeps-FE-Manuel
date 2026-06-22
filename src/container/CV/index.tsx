@@ -103,7 +103,7 @@ function CV() {
         </aside>
 
         <main className="lg:col-span-2 space-y-6">
-          <div className="bg-white border-2 border-black rounded-xl p-6 md:p-8 shadow-[4px_4px_0_0_#000]">
+          <div className="bg-white border-2 border-black rounded-xl p-6 md:p-8 shadow-[4px_4px_0_0_#000] divide-y divide-gray-400">
             <h2 className="text-2xl font-bold text-black mb-6 pb-4 border-b-2 border-black font-playfair">
               Professional Experience
             </h2>
